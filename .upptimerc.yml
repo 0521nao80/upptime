@@ -34,3 +34,7 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: "有効なインシデント"
+  incidentReport: "インシデントレポート #$NUMBER→"
+  activeIncidentSummary: "$DATE にオープン 投稿数 $POSTS"
