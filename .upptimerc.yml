@@ -1,30 +1,54 @@
-# Change these first
-owner: 0521nao80 # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# GitHub ユーザー名または組織名
+owner: 0521nao80
 
+# このリポジトリ名
+repo: upptime
+
+# 監視対象サービス
 sites:
-    - name: outline
-      url: https://outline.dc2.fnet.0am.jp/
-    - name: grist
-      url: https://grist.dc2.fnet.0am.jp/
+  - name: outline
+    url: https://outline.dc2.fnet.0am.jp/
+  - name: grist
+    url: https://grist.dc2.fnet.0am.jp/
 
+# ステータスサイトの設定
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /upptime
+  baseUrl: /upptime # GitHub Pages のルートパス
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: サービス稼働状況
+  introTitle: "**Upptime** は GitHub によって動作するオープンソースの稼働監視ツールです。"
+  introMessage: このページは [GitHub リポジトリ](https://github.com/0521nao80/upptime) からの**リアルタイムデータ**を使って生成されています。  
+    サーバー不要で、GitHub Actions・Issues・Pages のみで構成されています。  
+    [**あなたの環境にも導入できます →**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
+    - title: ステータス
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: GitHub リポジトリ
+      href: https://github.com/0521nao80/upptime
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
-
+# README のテンプレートファイル（日本語）
 readmeTemplate: ./readme-ja.md
 
+# 自動生成する用語の日本語翻訳（i18n）
+i18n:
+  activeIncidents: "発生中のインシデント"
+  incidentReport: "インシデント報告 #$NUMBER →"
+  activeIncidentSummary: "$DATE に発生、投稿数: $POSTS"
+  scheduled: "予定メンテナンス"
+  degraded: "一部機能停止"
+  outage: "停止中"
+  up: "稼働中"
+  down: "停止中"
+  unknown: "不明"
+  checking: "確認中"
+  responseTime: "応答時間"
+  uptime: "稼働率"
+  history: "履歴"
+  detail: "詳細"
+  status: "状態"
+  latestIncident: "最新のインシデント"
+  pastIncidents: "過去のインシデント"
+  incidentClosed: "$DATE に解決済み"
+
+# 通知や GitHub Issues の自動設定なども必要であれば追加できます（省略中）
+# 詳細：https://upptime.js.org/docs/configuration/
