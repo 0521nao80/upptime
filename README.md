@@ -1,4 +1,4 @@
-# [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **🟧 Partial outage**
+# [📈 現在の稼働状況](https://demo.upptime.js.org): <!--live status--> **🟧 Partial outage**
 
 This repository contains the open-source uptime monitor and status page for [0521nao80](https://demo.upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
 
