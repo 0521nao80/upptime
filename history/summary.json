@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1748,
-    "timeDay": 1748,
-    "timeWeek": 1748,
-    "timeMonth": 1748,
-    "timeYear": 1748,
+    "time": 1261,
+    "timeDay": 1261,
+    "timeWeek": 1261,
+    "timeMonth": 1261,
+    "timeYear": 1261,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/grist.dc2.fnet.0am.jp.ico",
     "slug": "grist",
     "status": "down",
-    "uptime": "36.45%",
-    "uptimeDay": "36.45%",
-    "uptimeWeek": "36.45%",
-    "uptimeMonth": "36.45%",
-    "uptimeYear": "36.45%",
+    "uptime": "0.22%",
+    "uptimeDay": "0.22%",
+    "uptimeWeek": "0.22%",
+    "uptimeMonth": "0.22%",
+    "uptimeYear": "0.22%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-07-31": 0
+      "2025-07-31": 40
     }
   }
 ]
