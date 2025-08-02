@@ -4,18 +4,20 @@
     "url": "https://outline.dc2.fnet.0am.jp/",
     "icon": "https://icons.duckduckgo.com/ip3/outline.dc2.fnet.0am.jp.ico",
     "slug": "outline",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1181,
-    "timeDay": 1302,
-    "timeWeek": 1181,
-    "timeMonth": 1181,
-    "timeYear": 1181,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.95%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.95%",
+    "time": 1372,
+    "timeDay": 2004,
+    "timeWeek": 1372,
+    "timeMonth": 1372,
+    "timeYear": 1372,
+    "dailyMinutesDown": {
+      "2025-08-02": 2
+    }
   },
   {
     "name": "grist",
@@ -34,7 +36,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-02": 97,
+      "2025-08-02": 242,
       "2025-08-01": 1440,
       "2025-07-31": 1240
     }
