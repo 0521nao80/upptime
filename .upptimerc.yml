@@ -9,9 +9,9 @@ sites:
   - name: n8n
     url: https://n8n.fnet.0am.jp/
   - name: outline
-    url: https://outline.dc2.fnet.0am.jp/
-  - name: grist
-    url: https://grist.dc2.fnet.0am.jp/
+    url: https://outline.fnet.0am.jp
+  # - name: grist
+  #   url: https://grist.dc2.fnet.0am.jp/
 
 # ステータスサイトの設定
 status-website:
